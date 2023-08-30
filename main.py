@@ -38,7 +38,7 @@ def main(filename1, filename2):
         if not articulo_existe:
             x.append(fila_x)    
 
-    write_list_of_dicts_to_csv("Nuevo.csv", x)
+    write_list_of_dicts_to_csv("grocery_db.csv", x)
 
 
 
